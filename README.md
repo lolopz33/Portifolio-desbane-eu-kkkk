@@ -7,7 +7,7 @@
 
 Este é o meu portfólio online, onde compartilho meus projetos, habilidades e informações profissionais.
 
-> 🌐 Acesse agora: [prft.vercel.app](https://prft.vercel.app)
+> 🌐 Acesse agora: [prft.vercel.app]([https://prft.vercel.app](https://portifolio-desbane-eu-kkkk.vercel.app))
 
 ## ✨ Funcionalidades
 
