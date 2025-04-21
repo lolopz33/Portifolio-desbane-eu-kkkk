@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>33 Team</title>
+  <link rel="icon" type="image/x-icon" href="Imagens/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    body {
+      font-family: 'VT323', monospace;
+      background: #0a0a0a;
+      color: #ccc;
+    }
+    ::selection {
+      background: #9400ff;
+      color: #000;
+    }
+
+    @keyframes scrollX {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-carousel {
+  display: flex;
+  animation: scrollX 40s linear infinite;
+}
+
+  </style>
+</head>
+<body class="bg-black text-gray-300">
+
+  <header class="bg-[#070707] text-[#39ff14] p-6 flex justify-between items-center border-b border-purple-800 shadow-[0_0_15px_#9400ff]">
+    <div class="flex items-center">
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/nowak%20_%20ai%20art.jpeg" 
+           alt="Foto de Perfil" 
+           class="w-16 h-16 rounded-full object-cover mr-4 border-2 border-[#39ff14] shadow-[0_0_10px_#39ff14]">
+      <h1 class="text-3xl font-bold tracking-widest">33 Team</h1>
+    </div>
+    <nav class="text-sm">
+      <a href="#sobre" class="ml-6 hover:text-purple-400 transition">[Sobre]</a>
+      <a href="#projetos" class="ml-6 hover:text-purple-400 transition">[Projetos]</a>
+      <a href="#contato" class="ml-6 hover:text-purple-400 transition">[Contato]</a>
+    </nav>
+  </header>
+
+  <section class="text-center py-20 bg-gradient-to-r from-black to-[#0f0f0f] text-purple-400">
+    <h2 class="text-5xl font-bold mb-4">By lolMK</h2>
+    <p class="text-lg text-gray-500">Sistemas obscuros, validações, macros e automações fora do radar.</p>
+  </section>
+
+<section class="overflow-hidden py-8 border-y border-purple-700 bg-[#0c0c0c]">
+  <div class="relative w-full">
+    <div class="flex w-max animate-carousel gap-6 px-6">
+      <!-- Carrossel principal -->
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge1.png" class="w-80 rounded-xl border-2 border-purple-700 shadow-[0_0_15px_#a855f7]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge2.png" class="w-80 rounded-xl border-2 border-indigo-500 shadow-[0_0_15px_#6366f1]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge3.png" class="w-80 rounded-xl border-2 border-pink-500 shadow-[0_0_15px_#ec4899]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge4.png" class="w-80 rounded-xl border-2 border-blue-500 shadow-[0_0_15px_#3b82f6]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge5.png" class="w-80 rounded-xl border-2 border-fuchsia-500 shadow-[0_0_15px_#d946ef]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge6.png" class="w-80 rounded-xl border-2 border-indigo-500 shadow-[0_0_15px_#6366f1]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge7.png" class="w-80 rounded-xl border-2 border-pink-500 shadow-[0_0_15px_#ec4899]" />
+      
+      <!-- Duplicadas para loop contínuo -->
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge1.png" class="w-80 rounded-xl border-2 border-purple-700 shadow-[0_0_15px_#a855f7]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge2.png" class="w-80 rounded-xl border-2 border-indigo-500 shadow-[0_0_15px_#6366f1]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge3.png" class="w-80 rounded-xl border-2 border-pink-500 shadow-[0_0_15px_#ec4899]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge4.png" class="w-80 rounded-xl border-2 border-blue-500 shadow-[0_0_15px_#3b82f6]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge5.png" class="w-80 rounded-xl border-2 border-fuchsia-500 shadow-[0_0_15px_#d946ef]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge6.png" class="w-80 rounded-xl border-2 border-indigo-500 shadow-[0_0_15px_#6366f1]" />
+      <img src="https://raw.githubusercontent.com/lolo24524/Portifolio/main/Imagens/iamge7.png" class="w-80 rounded-xl border-2 border-pink-500 shadow-[0_0_15px_#ec4899]" />
+    </div>
+  </div>
+</section>
+
+
+  <section id="sobre" class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-4xl font-bold mb-6 text-[#39ff14]">Sobre mim</h3>
+    <p class="text-lg leading-relaxed text-gray-300">
+      Autodidata em automações para Windows com <span class="text-purple-400">AutoHotkey</span>.<br />
+      Sistemas de verificação via <span class="text-purple-400">Google Sheets</span>, integração <span class="text-purple-400">Discord Webhook</span> e interfaces estilo game retrô.
+    </p>
+  </section>
+
+  <section id="projetos" class="bg-[#0f0f0f] py-16 px-4 border-t border-purple-800">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-4xl font-bold mb-6 text-[#39ff14]">Projetos</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="bg-black p-6 rounded-lg shadow-lg border border-purple-700 hover:shadow-purple-800 transition">
+          <h4 class="text-xl font-bold text-purple-300">Sistema de Validação de Keys</h4>
+          <p class="mt-2 text-sm text-gray-400">Controle de acesso com IP, expiração e uso único via Sheets.</p>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg shadow-lg border border-purple-700 hover:shadow-purple-800 transition">
+          <h4 class="text-xl font-bold text-purple-300">Macro com Painel Integrado</h4>
+          <p class="mt-2 text-sm text-gray-400">Login com key + UI visual estilo game (AutoHotkey v2).</p>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg shadow-lg border border-purple-700 hover:shadow-purple-800 transition">
+          <h4 class="text-xl font-bold text-purple-300">Logs via Webhook Discord</h4>
+          <p class="mt-2 text-sm text-gray-400">IP, key, user e timestamp direto no seu webhook.</p>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg shadow-lg border border-purple-700 hover:shadow-purple-800 transition">
+          <h4 class="text-xl font-bold text-purple-300">Detecção Anti-VPN</h4>
+          <p class="mt-2 text-sm text-gray-400">Valida IP e bloqueia conexões anônimas com IPWHO.IS.</p>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg shadow-lg border border-purple-700 hover:shadow-purple-800 transition">
+          <h4 class="text-xl font-bold text-purple-300">Cheat Menu (ESP)</h4>
+          <p class="mt-2 text-sm text-gray-400">Painel CS:GO style com efeitos e categorias visuais.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="py-16 px-4 bg-[#0a0a0a] border-t border-purple-700">
+    <div class="max-w-2xl mx-auto text-center">
+      <h3 class="text-4xl font-bold mb-6 text-[#39ff14]">Contato</h3>
+      <p class="mb-4 text-gray-400">Fala com a gente: <strong class="text-purple-300">lolsups420@gmail.com</strong></p>
+      <div class="flex justify-center space-x-6 text-lg">
+        <a href="#" class="hover:text-purple-400 transition">GitHub</a>
+        <a href="#" class="hover:text-purple-400 transition">Discord</a>
+        <a href="#" class="hover:text-purple-400 transition">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-gray-500 border-t border-purple-800">
+    © 2025 33 Team. Underground Power.
+  </footer>
+<div id="code-bg" class="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-10">
+  <canvas id="matrixCanvas" class="w-full h-full"></canvas>
+</div>
+
+<script>
+  const canvas = document.getElementById('matrixCanvas');
+  const ctx = canvas.getContext('2d');
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const letters = "01".split("");
+  const fontSize = 14;
+  const columns = canvas.width / fontSize;
+  const drops = Array.from({ length: columns }).fill(1);
+
+  function drawMatrix() {
+    ctx.fillStyle = "rgba(10, 10, 10, 0.08)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#39ff14";
+    ctx.font = fontSize + "px monospace";
+
+    for (let i = 0; i < drops.length; i++) {
+      const text = letters[Math.floor(Math.random() * letters.length)];
+      ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  setInterval(drawMatrix, 40);
+
+  window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+</script>
+
+
+
+</body>
+</html>
